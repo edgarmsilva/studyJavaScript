@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+    Pais <input type="text" id="txtnac">
+    <input type="button" id="btnCheck" value="Verificar" onclick="checkNacionalidade()">
+    <div id="result"></div>
+
+    <script>
+        function checkNacionalidade() {
+            var nac = window.document.getElementById("txtnac").value
+            var result = window.document.getElementById("result")
+
+            result.innerHTML = `<p>Pais de Origem: <strong>${nac}</strong> </p>`
+
+            if (nac == 'Brasil') {
+                result.innerHTML += '<p> Você é <strong>Brasileiro!</strong></p>'
+            } else {
+                result.innerHTML += '<p> Você é <strong>Estrangeiro!</strong></p>'
+                result.innerHTML += '<p> <strong>Bem vindo ao Brasil!</strong></p>'
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

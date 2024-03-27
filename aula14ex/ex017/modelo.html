@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div id="input">
+            <p>
+                Informe um Número:
+            </p>
+            <p>
+                <input type="number" name="inputNumero" id="inputNumero" min="1" max="5">
+            </p>
+            <p>
+                <input type="button" value="Gerar Tabuada" id="btnGeraTabuada" onclick="geraTabuada()">
+            </p>
+        </div>
+        <div>
+            <p id="tab">
+                <textarea name="tabuada" id="tabuada" cols="15" rows="11"> Digite um número acima</textarea>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Edgar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
