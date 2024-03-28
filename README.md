@@ -1,3 +1,9 @@
+# Curso JavaScript
+
+link para visualização dos exercícios:
+https://edgarmsilva.github.io/studyJavaScript/
+
+
 ## Operadores aritméticos JS
 
 ![alt text](/images/image.png)
